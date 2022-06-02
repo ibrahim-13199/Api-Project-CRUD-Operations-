@@ -11,7 +11,7 @@ namespace WepApi.Migrations
             migrationBuilder.AlterColumn<string>(
                 name: "name",
                 table: "categories",
-                type: "nvarchar(max)",
+                type: "nvarchar( max)",
                 nullable: true,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(max)");
